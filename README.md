@@ -1,9 +1,14 @@
-# Flow CRM Tutorial
+
+This is practice, Inspired from Marcus Hellberg.
+https://www.youtube.com/watch?v=bxy2JgqqKDU
+In my repo, there are still some deficiencies. 
+
+## Flow CRM Tutorial
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
 It contains all the necessary configuration and some placeholder files to get you started.
 
-## Running the application
+### Running the application
 
 The project is a standard Maven project. To run it from the command line,
 type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
@@ -13,7 +18,7 @@ You can also import the project to your IDE of choice as you would with any
 Maven project. Read more on [how to import Vaadin projects to different 
 IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, IntelliJ IDEA, NetBeans, and VS Code).
 
-## Deploying to Production
+### Deploying to Production
 
 To create a production build, call `mvnw clean package -Pproduction` (Windows),
 or `./mvnw clean package -Pproduction` (Mac & Linux).
@@ -23,7 +28,7 @@ ready to be deployed. The file can be found in the `target` folder after the bui
 Once the JAR file is built, you can run it using
 `java -jar target/flowcrmtutorial-1.0-SNAPSHOT.jar`
 
-## Project structure
+### Project structure
 
 - `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
   side/top bar and the main menu). This setup uses
@@ -32,7 +37,7 @@ Once the JAR file is built, you can run it using
 - `views` folder in `frontend/` contains the client-side JavaScript views of your application.
 - `themes` folder in `frontend/` contains the custom CSS styles.
 
-## Useful links
+### Useful links
 
 - Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
 - Follow the tutorials at [vaadin.com/tutorials](https://vaadin.com/tutorials).
@@ -47,7 +52,7 @@ Once the JAR file is built, you can run it using
 - Report issues, create pull requests in [GitHub](https://github.com/vaadin).
 
 
-## Deploying using Docker
+### Deploying using Docker
 
 To build the Dockerized version of the project, run
 
